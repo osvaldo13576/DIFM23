@@ -49,7 +49,7 @@ matlab -nosplash -nodesktop -r "Prueba_PF"
 
 ## Interfaz gráfica de usuario
 <p align="center">
-	<img src="./icon/gui.png" width="1106" height="654" alt="UNAM LOGO" />  
+	<img src="./icon/gui.png" width="884" height="523" alt="GUI" />  
 </p>
 
 
