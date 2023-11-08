@@ -47,6 +47,10 @@ Ejecutar la aplicación desde la consola de comandos de Windows o Linux con la s
 matlab -nosplash -nodesktop -r "Prueba_PF"
 ```
 
+## Interfaz gráfica de usuario
+<p align="center">
+	<img src="./icon/gui.png" width="1106" height="654" alt="UNAM LOGO" />  
+</p>
 
 
 
