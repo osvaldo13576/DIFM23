@@ -28,11 +28,25 @@ formato .pdf para almacenar la información obtenida del análisis.
 
 
 # Ejecución de la interfaz gráfica de usuario
-## 
-Descargue el repositorio y ejecute el archivo `Prueba_PF.m` en MATLAB.
+## Descarga del repositorio
 ```sh
 git clone https://github.com/osvaldo13576/DIFM23
 ```
+## Ejecución de la aplicación
+Una vez descargado el repositorio, se debe abrir la aplicación en MATLAB, para ello se debe abrir el archivo `Prueba_PF.m` y ejecutarlo. Una vez ejecutado, se desplegará la interfaz gráfica de usuario. Dentro de MATLAB ejecutar el siguiente comando
+```sh
+Prueba_PF
+```
+### Ejecución de la aplicación desde la consola
+Este método es útil para ejecutar la aplicación desde la consola de comandos de Windows o Linux. Para ello, se debe abrir la consola de comandos y ejecutar la siguiente línea para abrir la carpeta contenedora de la aplicación, por ejemplor si el directorio es `C:\Users\PC\Documents\GitHub\DIFM23`:
+```sh
+cd C:\Users\PC\Documents\GitHub\DIFM23
+```
+Ejecutar la aplicación desde la consola de comandos de Windows o Linux con la siguiente línea:
+```sh
+matlab -nosplash -nodesktop -r "Prueba_PF"
+```
+
 
 
 
