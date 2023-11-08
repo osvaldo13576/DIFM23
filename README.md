@@ -49,30 +49,19 @@ matlab -nosplash -nodesktop -r "Prueba_PF"
 
 ## Interfaz gráfica de usuario
 <p align="center">
-	<img src="./icon/gui.png" width="884" height="523" alt="GUI" />  
+	<img src="./icon/gui.png" width="663" height="392" alt="GUI" />  
 </p>
 
+### Uso de la aplicación
+1. Abir: Permite seleccionar la imagen a analizar, la cual debe ser una imagen DICOM, solo admite imágenes de los fabricantes Varian y Elekta proporcionados por la SMFM.
+2. Cargar imagen: Carga la imagen seleccionada en la gráfica en blanco de la parte superior, así como sus perfiles horizontal y vertical. Es posible hacer clic sobre la imagen para obtener la coordenada y graficar los perfiles.
+3. Iniciar análisis: Inicia el proceso de análisis de la imagen seleccionada, desplegando visualmente una imagen la cual contiene el ancho y separación de las láminas, desviación promedio, así como la desviación estándar máxima con su par de láminas, así mismo, se despliega la gráfica de error promedio. 
+4. Despliega los resultados del análisis del punto anterior.
+5. Crear reporte (.pdf): Genera un reporte en archivo .pdf de los resultados en la aplicación.
+6. Guardar Img: Guarda la imagen resultante del análisis.
+7. Ver imagen original: Muestra la imagen original seleccionada.
+8. Cerrar: Finaliza la aplicación.
 
-
-
-
-### Guía de botones
-
-- Abrir: Este botón abre el directorio donde se encuentra la aplicación para seleccionar la imagen a análizar (Varian/Elekta).
-
-- Cargar imágenes: Al ser presionado, cargará la imagen Elekta o Varian en la gráfica en blanco de la parte superior, así como sus perfiles horizontal y vertical.
-
-- Iniciar análisis: Inicia el proceso de análisis de la imagen seleccionada, desplegando visualmente una imagen interactiva, error promedio, así como la desviación estándar máxima con su par de láminas. 
-
-- Ver imagen original: Checkbox el cual cambia la imagen analizada a la inicial en la gráfica central.
-
-- Guardar imagen: Guarda la imagen.
-
-- Crear reporte: Genera un reporte en archivo .pdf de los resultados en la aplicación.
-
-- Resultados: En esta sección se despliega la información de la desviación estándar y el par de láminas a la que pertenece.
-
-- Cerrar: Finaliza la aplicación.
 
 ### Referencias
 
