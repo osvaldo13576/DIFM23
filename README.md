@@ -1,10 +1,10 @@
 <p align="center">
-	<img src="./icon/portada.png" width="376" height="128" alt="Winlator Logo" />  
+	<img src="./icon/portada.png" width="636" height="131" alt="UNAM LOGO" />  
 </p>
 
 # Aplicación Picket Fence
 <div align="justify"> 
-Esta aplicación diseñada en App Designer de MATLAB para correr en Windows(86x_64). El programa fue diseñado con la intención de llevar a cabo el análisis de imágenes DICOM obtenidas de la prueba Picket Fence
+Esta aplicación diseñada en App Designer de MATLAB para correr en sistemas Windows(86x_64) y Linux. El programa fue diseñado con la intención de llevar a cabo el análisis de imágenes DICOM obtenidas de la prueba Picket Fence
 acorde al TG-142 de la AAPM. Dicha prueba busca corroborar el correcto funcionamiento del colimador multihojas (MLC) mediante un estudio de imagen, en el cuál se buscará detectar anomalías en el posicionamiento
 de las mismas mediante software de procesamiento en búsqueda de discrepancias en el posicionamiento del sistema colimador<sub>1</sub>.
 
@@ -19,16 +19,23 @@ formato .pdf para almacenar la información obtenida del análisis.
 
 </div>
 
-### Requerimientos 
+## Requerimientos 
+
+- [x] Tener instalado `git` en su sistema.
+- [x] [MATLAB](https://la.mathworks.com/store/)  en su versión 2020a o recientes.
+- [x] Sistemas operativos Windows(86x_64) y Linux.
+- [x] Imágenes DICOM de prueba Picket Fence.
 
 
-1.- Instalar la aplicación [MATLAB](https://la.mathworks.com/store/?gclid=Cj0KCQiAuqKqBhDxARIsAFZELmI2U62SFmQvDjbBNklz9sMsUFYG39xNu5gLfPHLX4tLkW6P3bT_fBIaAmOsEALw_wcB&ef_id=Cj0KCQiAuqKqBhDxARIsAFZELmI2U62SFmQvDjbBNklz9sMsUFYG39xNu5gLfPHLX4tLkW6P3bT_fBIaAmOsEALw_wcB:G:s&s_kwcid=AL!8664!3!323262175322!p!!g!!get%20matlab&s_eid=ppc_62715811617&q=get%20matlab)  en su versión 2023a/b.
+# Ejecución de la interfaz gráfica de usuario
+## 
+Descargue el repositorio y ejecute el archivo `Prueba_PF.m` en MATLAB.
+```sh
+git clone https://github.com/osvaldo13576/DIFM23
+```
 
-2.- Instalar la aplicación [Picket Fence](https://github.com/iFranM18/Reto_Fisica_Medica/tree/main/Picket_Fence_app/Picket_Fence/for_redistribution).
 
-3.- Ejecutar el archivo .exe y esperar a que el proceso de instalación finalice.
 
-4.- Abrir la aplicación Picket_Fence.exe.
 
 
 ### Guía de botones
